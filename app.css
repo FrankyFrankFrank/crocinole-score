@@ -1,0 +1,13 @@
+#app h1 {
+	text-align: center;
+}
+
+.winner {
+	text-align: center;
+}
+
+.scoreboard {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}

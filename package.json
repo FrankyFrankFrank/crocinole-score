@@ -1,0 +1,11 @@
+{
+  "name": "crocinole-score",
+  "version": "1.0.0",
+  "description": "Scorekeeper for the game of crocinole",
+  "main": "app.js",
+  "author": "Adam Frank <a.frank@vehikl.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^3.3.0"
+  }
+}
