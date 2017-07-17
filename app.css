@@ -11,3 +11,19 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+
+.get-names {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.crocinole-graphic {
+	text-align: center;
+}
+
+.crocinole-graphic img {
+	max-width: 200px;
+	width: 100%;
+}

@@ -10,7 +10,11 @@
 <body>
 	<div id="app">
 		<h1>Crocinole</h1>
-		<div v-if="!gamefinished" class="scoreboard">
+		<div class="crocinole-graphic">
+			<img src="img/crocinole-board.svg">
+		</div>
+		<Getnames v-if="!gameinprogress && !gamefinished" :players="[player1, player2]" :begin="begin"></Getnames>
+		<div v-if="gameinprogress" class="scoreboard">
 			<score :player="player1"></score>
 			<score :player="player2"></score>
 		</div>
